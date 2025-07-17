@@ -4,7 +4,7 @@ import { ProjectTable } from './ProjectTable';
 
 export const DashboardMockup: React.FC = () => {
   return (
-    <section className="flex flex-col relative min-h-[277px] w-full max-w-[1210px] mt-[78px] pt-2.5 px-[11px] rounded-[20px] max-md:max-w-full max-md:mt-10">
+    <section className="flex flex-col relative min-h-[277px] w-full max-w-[1210px] mt-[120px] pt-2.5 px-[11px] rounded-[20px] max-md:max-w-full max-md:mt-16">
       <img
         src="https://api.builder.io/api/v1/image/assets/TEMP/6bfa3c8c06891c6da733fb50054d93ae42d9e22a?placeholderIfAbsent=true"
         alt="Dashboard background"
