@@ -4,7 +4,7 @@ import { ProjectTable } from './ProjectTable';
 
 export const DashboardMockup: React.FC = () => {
   return (
-    <section className="flex flex-col relative min-h-[180px] w-full max-w-[1210px] mt-[40px] pt-2.5 px-[11px] rounded-[20px] max-md:max-w-full max-md:mt-6">
+    <section className="flex flex-col relative min-h-[100px] w-full max-w-[1210px] mt-[40px] pt-2.5 px-[11px] rounded-[20px] max-md:max-w-full max-md:mt-6">
       <img
         src="https://api.builder.io/api/v1/image/assets/TEMP/6bfa3c8c06891c6da733fb50054d93ae42d9e22a?placeholderIfAbsent=true"
         alt="Dashboard background"
@@ -16,7 +16,7 @@ export const DashboardMockup: React.FC = () => {
           <div className="border shrink-0 h-px border-[rgba(86,89,97,1)] border-solid" />
         </div>
         <Sidebar />
-        <div className="z-10 mt-[-265px] w-[916px] max-w-full max-md:mt-[-200px]">
+        <div className="z-10 mt-[-265px] w-[916px] max-w-full max-md:mt-[-200px] ml-auto">
           <header className="bg-[rgba(12,17,29,1)] relative flex w-full items-center gap-3 px-6 py-5 rounded-[0px_16px_0px_0px] max-md:max-w-full max-md:px-5">
             <div className="self-stretch z-0 flex min-w-60 items-center gap-3.5 flex-1 shrink basis-[0%] my-auto max-md:max-w-full">
               <div className="self-stretch min-w-60 w-full flex-1 shrink basis-[0%] my-auto max-md:max-w-full">
