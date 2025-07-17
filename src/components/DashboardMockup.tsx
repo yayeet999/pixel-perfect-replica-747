@@ -4,19 +4,19 @@ import { ProjectTable } from './ProjectTable';
 
 export const DashboardMockup: React.FC = () => {
   return (
-    <section className="flex flex-col relative min-h-[100px] w-full max-w-[1210px] mt-[40px] pt-2.5 px-[11px] rounded-[20px] max-md:max-w-full max-md:mt-6">
+    <section className="flex flex-col relative w-full max-w-[1210px] mt-[40px] pt-2.5 px-[11px] rounded-[20px] max-md:max-w-full max-md:mt-6">
       <img
         src="https://api.builder.io/api/v1/image/assets/TEMP/6bfa3c8c06891c6da733fb50054d93ae42d9e22a?placeholderIfAbsent=true"
         alt="Dashboard background"
         className="absolute h-full w-full object-cover inset-0"
       />
-      <div className="relative bg-[rgba(22,27,38,1)] flex flex-col pt-[84px] px-px rounded-2xl border-[rgba(51,55,65,1)] border-solid border-2 max-md:max-w-full">
-        <div className="z-10 w-[11px] ml-[266px] py-[3px] max-md:ml-2.5">
+      <div className="relative bg-[rgba(22,27,38,1)] flex pt-[84px] px-px rounded-2xl border-[rgba(51,55,65,1)] border-solid border-2 max-md:max-w-full">
+        <div className="z-10 w-[11px] ml-[266px] py-[3px] max-md:ml-2.5 absolute">
           <div className="border z-10 w-full shrink-0 h-[11px] border-[rgba(86,89,97,1)] border-solid max-md:mr-[5px]" />
           <div className="border shrink-0 h-px border-[rgba(86,89,97,1)] border-solid" />
         </div>
         <Sidebar />
-        <div className="z-10 mt-[-265px] w-[916px] max-w-full max-md:mt-[-200px] ml-auto">
+        <div className="z-10 w-[916px] max-w-full ml-auto">
           <header className="bg-[rgba(12,17,29,1)] relative flex w-full items-center gap-3 px-6 py-5 rounded-[0px_16px_0px_0px] max-md:max-w-full max-md:px-5">
             <div className="self-stretch z-0 flex min-w-60 items-center gap-3.5 flex-1 shrink basis-[0%] my-auto max-md:max-w-full">
               <div className="self-stretch min-w-60 w-full flex-1 shrink basis-[0%] my-auto max-md:max-w-full">
