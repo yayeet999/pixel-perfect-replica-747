@@ -10,7 +10,7 @@ export const DashboardMockup: React.FC = () => {
         alt="Dashboard background"
         className="absolute h-full w-full object-cover inset-0"
       />
-      <div className="relative bg-[rgba(22,27,38,1)] flex flex-col pt-[20px] px-px rounded-2xl border-[rgba(51,55,65,1)] border-solid border-2 max-md:max-w-full">
+      <div className="relative bg-[rgba(22,27,38,1)] flex flex-col pt-[60px] px-px rounded-2xl border-[rgba(51,55,65,1)] border-solid border-2 max-md:max-w-full">
         <div className="flex">
           <Sidebar />
           <div className="z-10 w-[916px] max-w-full ml-auto">
