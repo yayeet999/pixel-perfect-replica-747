@@ -12,7 +12,9 @@ export const DashboardMockup: React.FC = () => {
       />
       <div className="relative bg-[rgba(22,27,38,1)] flex flex-col pt-[20px] px-px rounded-2xl border-[rgba(51,55,65,1)] border-solid border-2 max-md:max-w-full">
         <div className="flex">
-          <Sidebar />
+          <div className="self-end">
+            <Sidebar />
+          </div>
           <div className="z-10 w-[916px] max-w-full ml-auto">
             <header className="bg-[rgba(12,17,29,1)] relative flex w-full items-center gap-3 px-6 py-5 rounded-[0px_16px_0px_0px] max-md:max-w-full max-md:px-5">
               <div className="self-stretch z-0 flex min-w-60 items-center gap-3.5 flex-1 shrink basis-[0%] my-auto max-md:max-w-full">
