@@ -1,11 +1,17 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import React from 'react';
+import { Header } from '@/components/Header';
+import { HeroSection } from '@/components/HeroSection';
+import { DashboardMockup } from '@/components/DashboardMockup';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="bg-white overflow-hidden">
+      <div className="bg-[rgba(12,17,29,1)] flex w-full flex-col items-center max-md:max-w-full">
+        <Header />
+        <main className="flex w-full flex-col items-center">
+          <HeroSection />
+          <DashboardMockup />
+        </main>
       </div>
     </div>
   );
